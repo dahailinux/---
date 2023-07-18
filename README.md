@@ -2,6 +2,9 @@
 信息安全框架-生产服务器部分
 
 网站安全系统架构							
+					
+![image](https://github.com/dahailinux/---/assets/54297681/dca40627-2b32-4233-adec-7bf1fbe57855)
+
 No.	Name	requirements					
 1	超级系统监控	监控操作系统上所有行为	随便一个ping命令就知道怎么导致的，出现了rootkit能立刻发现		Skyline Etsy	Rappor	psacct
 2	超级网络监控	监控网络上所有数据包	发现一切网络行为，除了加密数据都能捕获到数据；	NTA系统	ELKB	NIDS	Moloch
@@ -61,7 +64,4 @@ https://nvd.nist.gov/"	最新漏洞通告预警网站	Qualys,Inc.是一家世界
 	指纹扫描系统	企业内网资产扫描Foeye	web网站暴露资产和指纹扫描系统FORadar	FOFA、SODAN			
 	安全论坛	https://www.shentoushi.top/secworld	Nosec	90sec	t00ls		
 52	物理攻击	用usbguard来防止badusb攻击					
-53	人的社工	职责分离、双人审计，DLP系统					
-
-
-![image](https://github.com/dahailinux/---/assets/54297681/dca40627-2b32-4233-adec-7bf1fbe57855)
+53	人的社工	职责分离、双人审计，DLP系统
